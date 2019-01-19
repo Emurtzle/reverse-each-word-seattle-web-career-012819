@@ -5,5 +5,5 @@ def reverse_each_word (string)
   array.each do |word|
     string.concat("#{word.reverse} ")
   end
-  string
+  string[0..-1]
 end
